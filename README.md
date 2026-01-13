@@ -1,2 +1,6 @@
 # MaLMon
-Machine-learning integrated malware classification &amp; monitor system
+Application of Machine Learning in Endpoint Monitor and Malware Classification system.
+
+
+
+

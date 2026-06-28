@@ -19,6 +19,7 @@ This project develops a machine learning-based malware analysis framework capabl
 - Malware Family Classification
 - PE File Static Analysis
 - Feature Engineering from EMBER Dataset
+- ATT&CK Technique extraction with CAPA
 - MITRE ATT&CK Intelligence Integration
 
 ## Workflow
@@ -32,7 +33,7 @@ This project develops a machine learning-based malware analysis framework capabl
 
 ---
 
-## Dataset
+## Dataset & Tools
 
 ### EMBER Dataset
 
@@ -47,6 +48,12 @@ MITRE ATT&CK reports provide behavioral intelligence and malware technique mappi
 
 Website:
 https://attack.mitre.org/
+
+### CAPA
+Detect capabilities in executable files.
+
+Repository:
+https://github.com/mandiant/capa
 
 ---
 

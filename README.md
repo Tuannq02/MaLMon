@@ -6,7 +6,7 @@ Application of Machine Learning in Endpoint Monitor and Malware Classification s
 
 This project develops a machine learning-based malware analysis framework capable of:
 
-- Detecting malicious executable files
+- Detecting & quanrantine malicious executable files
 - Classifying malware types
 - Leveraging the EMBER dataset for malware detection
 - Utilizing MITRE ATT&CK incident reports for malware categorization and threat intelligence

@@ -25,10 +25,11 @@ This project develops a machine learning-based malware analysis framework capabl
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Tuannq02/MaLMon/main/Client.png"
+    src="https://raw.githubusercontent.com/Tuannq02/MaLMon/main/Workflow.png"
     alt="MaLMon System Architecture"
     width="900">
 </p>
+
 ---
 
 ## Dataset

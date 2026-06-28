@@ -104,5 +104,6 @@ A lightweight client is deployed on endpoint devices to:
     alt="MaLMon System Architecture"
     width="700">
 </p>
+
 ---
 

@@ -21,6 +21,14 @@ This project develops a machine learning-based malware analysis framework capabl
 - Feature Engineering from EMBER Dataset
 - MITRE ATT&CK Intelligence Integration
 
+## Workflow
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Tuannq02/MaLMon/main/Client.png"
+    alt="MaLMon System Architecture"
+    width="900">
+</p>
 ---
 
 ## Dataset
@@ -30,7 +38,6 @@ This project develops a machine learning-based malware analysis framework capabl
 The project uses the EMBER (Endgame Malware Benchmark for Research) dataset, a large-scale benchmark dataset for Windows PE malware detection.
 
 Dataset Repository:
-
 https://github.com/elastic/ember
 
 ### MITRE ATT&CK
@@ -38,7 +45,6 @@ https://github.com/elastic/ember
 MITRE ATT&CK reports provide behavioral intelligence and malware technique mapping.
 
 Website:
-
 https://attack.mitre.org/
 
 ---
@@ -46,7 +52,6 @@ https://attack.mitre.org/
 ### Feature Extraction
 
 Extracted features include:
-
 - PE Header Information
 - Section Metadata
 - Imported Functions
@@ -56,15 +61,13 @@ Extracted features include:
 
 ### Malware Detection
 
-Train machine learning models to classify executable files as:
-
+Trained machine learning models to classify executable files as:
 - Benign
 - Malicious
 
 ### Malware Classification
 
 Classify malicious files into malware categories such as:
-
 - Trojan
 - Ransomware
 - Worm
@@ -81,7 +84,6 @@ The proposed system follows a centralized malware analysis architecture consisti
 ### Central Server
 
 The central server is responsible for:
-
 - Receiving extracted static feature sets from endpoint clients
 - Running malware detection and classification models
 - Identifying malware families and threat categories
@@ -90,7 +92,6 @@ The central server is responsible for:
 ### Endpoint Client
 
 A lightweight client is deployed on endpoint devices to:
-
 - Monitor executable files
 - Collect / Send file metadata
 - Receive analysis results

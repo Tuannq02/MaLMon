@@ -98,5 +98,11 @@ A lightweight client is deployed on endpoint devices to:
 - Receive analysis results
 - Performance migitation actions: quanrantine, removal or restore
 
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Tuannq02/MaLMon/main/Client.png"
+    alt="MaLMon System Architecture"
+    width="700">
+</p>
 ---
 

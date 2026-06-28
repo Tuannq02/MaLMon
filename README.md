@@ -20,7 +20,6 @@ This project develops a machine learning-based malware analysis framework capabl
 - PE File Static Analysis
 - Feature Engineering from EMBER Dataset
 - MITRE ATT&CK Intelligence Integration
-- Model Performance Evaluation
 
 ---
 
